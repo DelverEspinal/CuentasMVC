@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub\\CuentasMVC\\Cuentas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADBA8306-99F6-40CB-BB56-0772F1B87ADE}|Cuentas\\Cuentas.csproj|c:\\github\\cuentasmvc\\cuentas\\cuentas\\views\\movimiento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADBA8306-99F6-40CB-BB56-0772F1B87ADE}|Cuentas\\Cuentas.csproj|solutionrelative:cuentas\\views\\movimiento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADBA8306-99F6-40CB-BB56-0772F1B87ADE}|Cuentas\\Cuentas.csproj|c:\\github\\cuentasmvc\\cuentas\\cuentas\\views\\cuenta\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADBA8306-99F6-40CB-BB56-0772F1B87ADE}|Cuentas\\Cuentas.csproj|solutionrelative:cuentas\\views\\cuenta\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\CuentasMVC\\Cuentas\\Cuentas\\Views\\Cuenta\\Create.cshtml",
+              "RelativeDocumentMoniker": "Cuentas\\Views\\Cuenta\\Create.cshtml",
+              "ToolTip": "C:\\GitHub\\CuentasMVC\\Cuentas\\Cuentas\\Views\\Cuenta\\Create.cshtml",
+              "RelativeToolTip": "Cuentas\\Views\\Cuenta\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T21:42:02.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\CuentasMVC\\Cuentas\\Cuentas\\Views\\Movimiento\\Create.cshtml",
+              "RelativeDocumentMoniker": "Cuentas\\Views\\Movimiento\\Create.cshtml",
+              "ToolTip": "C:\\GitHub\\CuentasMVC\\Cuentas\\Cuentas\\Views\\Movimiento\\Create.cshtml*",
+              "RelativeToolTip": "Cuentas\\Views\\Movimiento\\Create.cshtml*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T21:41:30.48Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

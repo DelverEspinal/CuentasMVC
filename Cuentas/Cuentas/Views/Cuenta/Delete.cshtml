@@ -1,0 +1,66 @@
+﻿@model Cuentas.Models.Cuenta
+
+@{
+    ViewData["Title"] = "Borrar Cuenta";
+}
+
+<h3 class="text-center text-danger mb-4">¿Estás seguro de que quieres borrar esta cuenta?</h3>
+<div class="row justify-content-center">
+    <div class="col-md-7">
+        <div class="card shadow-lg border-danger">
+            <div class="card-header bg-danger text-white">
+                <h4>Datos de la Cuenta a Eliminar</h4></div>
+            <div class="card-body">
+                
+                <dl class="row">
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.numero)
+                    </dt>
+                    <dd class="col-sm-8 border-bottom">
+                        @Html.DisplayFor(model => model.numero)
+                    </dd>
+
+                    <dt class="col-sm-4 mt-2 ">
+                        @Html.DisplayNameFor(model => model.descripcion)
+                    </dt>
+                    <dd class="col-sm-8 mt-2 border-bottom">
+                        @Html.DisplayFor(model => model.descripcion)
+                    </dd>
+
+                    <dt class="col-sm-4 mt-2 ">
+                        @Html.DisplayNameFor(model => model.creditos)
+                    </dt>
+                    <dd class="col-sm-8 mt-2 border-bottom">
+                        @Html.DisplayFor(model => model.creditos)
+                    </dd>
+
+                    <dt class="col-sm-4 mt-2 ">
+                        @Html.DisplayNameFor(model => model.debitos)
+                    </dt>
+                    <dd class="col-sm-8 mt-2 border-bottom">
+                        @Html.DisplayFor(model => model.debitos)
+                    </dd>
+
+                    <dt class="col-sm-4 mt-2">
+                        @Html.DisplayNameFor(model => model.balance)
+                    </dt>
+                    <dd class="col-sm-8 mt-2">
+                       @Html.DisplayFor(model => model.balance)
+                    </dd>
+
+                </dl>
+
+                <form asp-action="Delete">
+                    <input type="hidden" asp-for="id" />
+
+                    <div class="card-footer text-end">
+                        <input type="submit" value="Confirmar Borrado" class="btn btn-danger btn-sm" />
+
+                        <a asp-action="Index" class="btn btn-secondary btn-sm">Cancelar y Regresar</a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

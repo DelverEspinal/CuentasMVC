@@ -1,0 +1,55 @@
+﻿@model Cuentas.Models.Movimiento
+
+@{
+    ViewData["Title"] = "Crear Nuevo Movimiento";
+}
+
+<h1 class="text-center">Crear Movimiento</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-lg p-5 mb-4">
+            <div class="card-body">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group mb-3">
+                <label asp-for="Tipo" class="control-label"></label>
+                        <input asp-for="Tipo" class="form-control" placeholder="Ingrese el Tipo de Movimiento" />
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+            </div>
+                    <div class="form-group mb-3">
+                <label asp-for="Concepto" class="control-label"></label>
+                <input asp-for="Concepto" class="form-control" />
+                <span asp-validation-for="Concepto" class="text-danger"></span>
+            </div>
+                    <div class="form-group mb-3">
+                <label asp-for="Monto" class="control-label"></label>
+                <input asp-for="Monto" class="form-control" />
+                <span asp-validation-for="Monto" class="text-danger"></span>
+            </div>
+                    <div class="form-group mb-3">
+                <label asp-for="Fecha" class="control-label"></label>
+                <input asp-for="Fecha" class="form-control" />
+                <span asp-validation-for="Fecha" class="text-danger"></span>
+            </div>
+                    <div class="form-group mb-3">
+                <label asp-for="IdCuenta" class="control-label"></label>
+                <input asp-for="IdCuenta" class="form-control" />
+                <span asp-validation-for="IdCuenta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                        <input type="submit" value="Crear Movimiento" class="btn btn-primary w-100" />
+            </div>
+        </form>
+    </div>
+</div>
+
+        <div>
+            <a asp-action="Index" class="btn btn-secondary">Regresar a la lista</a>
+        </div>
+    </div> 
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

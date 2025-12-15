@@ -1,0 +1,63 @@
+﻿@model Cuentas.Models.Movimiento
+
+@{
+    ViewData["Title"] = "Borrar Movimiento";
+}
+
+<h3 class="text-center text-danger mb-4">¿Estas seguro de borrar este movimiento?</h3>
+<div class="row justify-content-center">
+    <div class="col-md-7">
+        <div class="card shadow-lg border-danger">
+            <div class="card-header bg-danger text-white">
+                <h4>Datos del Movimiento a Eliminar</h4>
+            </div>
+            <div class="card-body">
+
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tipo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Concepto)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Concepto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Monto)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Monto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdCuenta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdCuenta)
+        </dd>
+    </dl>
+
+                <form asp-action="Delete">
+                    <input type="hidden" asp-for="Id" />
+
+                    <div class="card-footer text-end">
+                        <input type="submit" value="Confirmar Borrado" class="btn btn-danger btn-sm" />
+
+                        <a asp-action="Index" class="btn btn-secondary btn-sm">Cancelar y Regresar</a>
+                    </div>
+                </form>
+           
+
+</div>      
+</div>  
+</div>
+</div>
